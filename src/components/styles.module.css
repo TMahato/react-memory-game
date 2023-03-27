@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #cccccc;
+  height: 100%;
+}
+/* _______________________________________________________ */
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: min(30px, 5%);
+  background-color: #333;
+  color: #eee;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.6);
+}
+.navBar h1 {
+  font-size: 3rem;
+  cursor: pointer;
+}
+/* _______________________________________________________ */
+.mainContent {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+  justify-items: center;
+  padding: 10px 10px 40px;
+  box-shadow: 0px -11px 14px -5px rgba(0, 0, 0, 0.47) inset;
+}
+.cardImg{
+  justify-items: center;
+  padding: 10px;
+}
+.firstRow {
+  width: min(600px, 80%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.firstRow div {
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #3333332e;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  width: 220px;
+  padding: 10px;
+}
+/* _______________________________________________________ */
+.secondRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-items: center;
+  width: min(700px, 60%);
+  gap: 20px;
+}
+.secondRow div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 150px;
+  height: 180px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 10px;
+  border-radius: 15px;
+}
+.secondRow div:hover {
+  transform: scale(1.08);
+  transition: 250ms;
+  cursor: pointer;
+  user-select: none;
+}
+.secondRow div:active {
+  transform: scale(0.95);
+}
+.secondRow div img {
+  width: 70%;
+  pointer-events: none;
+}
+.secondRow div p {
+  pointer-events: none;
+}
+
+/* _______________________________________________________ */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #eee;
+  padding: min(4%, 15px);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 10px;
+}
+a svg {
+  padding: 0 10px;
+}
+
+/* _________________________________________________ */
+
+@media only screen and (max-width: 768px) {
+  .navBar h1 {
+    font-size: 2rem;
+  }
+  .mainContent {
+    grid-template-rows: 150px 1fr;
+  }
+  .firstRow {
+    /* height: 50%; */
+  }
+  .secondRow {
+    width: 100%;
+  }
+  .secondRow div {
+      width: 120px;
+      height: 145px;
+  }
+}
