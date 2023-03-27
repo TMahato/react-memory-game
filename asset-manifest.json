@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-memory-game/static/css/main.0625d30b.css",
+    "main.js": "/react-memory-game/static/js/main.26bef138.js",
+    "static/media/rashford.png": "/react-memory-game/static/media/rashford.e4d03c10e74304aacad7.png",
+    "static/media/beckham.png": "/react-memory-game/static/media/beckham.43bbf2707cc429b22e7f.png",
+    "static/media/marcelo.png": "/react-memory-game/static/media/marcelo.b49d7e23ab7a2eab5630.png",
+    "static/media/mbappe.png": "/react-memory-game/static/media/mbappe.f4c7a6dfdd8e6f383948.png",
+    "static/media/zidane.png": "/react-memory-game/static/media/zidane.bb5f5b5d7c6bd174549f.png",
+    "static/media/mo-salah.png": "/react-memory-game/static/media/mo-salah.49f76edb0d4a5d7ae250.png",
+    "static/media/pogba.png": "/react-memory-game/static/media/pogba.18acc9b86efbdeef7ea9.png",
+    "static/media/maguire.png": "/react-memory-game/static/media/maguire.48d7e7dfec502fa0d834.png",
+    "static/media/neymar.png": "/react-memory-game/static/media/neymar.e44db30c01faa72b9e7d.png",
+    "static/media/messi.png": "/react-memory-game/static/media/messi.5f170f30869840fd68d5.png",
+    "static/media/ronaldo.png": "/react-memory-game/static/media/ronaldo.b92beded2679f95bbed7.png",
+    "static/media/ramos.png": "/react-memory-game/static/media/ramos.fa69e1e2b0246667ed7b.png",
+    "index.html": "/react-memory-game/index.html",
+    "main.0625d30b.css.map": "/react-memory-game/static/css/main.0625d30b.css.map",
+    "main.26bef138.js.map": "/react-memory-game/static/js/main.26bef138.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0625d30b.css",
+    "static/js/main.26bef138.js"
+  ]
+}
