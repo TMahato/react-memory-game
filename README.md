@@ -1,1 +1,1 @@
-# React-meory-game
+# React-memory-game
